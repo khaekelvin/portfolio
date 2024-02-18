@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { FaPaperPlane, FaBehance, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaBehance, FaLinkedinIn } from "react-icons/fa";
 import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
 import { RxExternalLink } from "react-icons/rx";
@@ -67,9 +67,10 @@ function Hero() {
                   <a
                     data-tooltip-id="projects-tooltip"
                     data-tooltip-place="bottom"
+                    href="https://github.com/khaekelvin"
                   >
                     <div className="example-container __react_component_tooltip __react_component_tooltip.show rounded-3xl w-20 h-20 bg-customAsh hover:border-4 hover:bg-gray-400 flex justify-center">
-                      <LiaProjectDiagramSolid size={30} className="my-auto" />
+                      <FaGithub size={30} className="my-auto" />
                       <Tooltip
                         id="projects-tooltip"
                         className="example-rounded __react_component_tooltip __react_component_tooltip.show hidden lg:flex"
