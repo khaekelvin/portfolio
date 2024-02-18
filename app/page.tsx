@@ -13,7 +13,7 @@ function Hero() {
         </div>
 
         <div>
-          <div className="flex">
+          <div className="lg:flex ">
             <a
               data-tooltip-id="my-tooltip-rounded"
               data-tooltip-content="Contact Me"
@@ -22,7 +22,7 @@ function Hero() {
                 <FaPaperPlane size={30} className="my-auto " />
                 <Tooltip
                   id="my-tooltip-rounded"
-                  className="example-rounded __react_component_tooltip __react_component_tooltip.show"
+                  className="example-rounded __react_component_tooltip __react_component_tooltip.show hidden lg:flex"
                   arrowColor="transparent"
                 />
               </div>
