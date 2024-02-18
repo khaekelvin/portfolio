@@ -12,14 +12,14 @@ function Hero() {
   return (
     <>
       <div className="max-w-7xl mx-auto">
-        <div className="text-center">
-          Dane is a Visual Designer in Brooklyn, New York
+        <div className="text-center text-3xl mb-6">
+          King is a Web Developer in Accra, Ghana
         </div>
 
         <div>
           <section className="flex gap-4 justify-center">
             <div className="lg:flex">
-              <a data-tooltip-id="contact-tooltip">
+              <a data-tooltip-id="contact-tooltip" data-tooltip-place="bottom">
                 <div className="example-container __react_component_tooltip __react_component_tooltip.show rounded-3xl w-20 h-20 bg-customAsh hover:border-4 hover:bg-gray-400 flex justify-center">
                   <FaPaperPlane size={30} className="my-auto" />
                   <Tooltip
@@ -36,7 +36,7 @@ function Hero() {
             </div>
 
             <div className="lg:flex">
-              <a data-tooltip-id="resume-tooltip">
+              <a data-tooltip-id="resume-tooltip" data-tooltip-place="bottom">
                 <div className="example-container __react_component_tooltip __react_component_tooltip.show rounded-3xl w-20 h-20 bg-customAsh hover:border-4 hover:bg-gray-400 flex justify-center">
                   <LuClipboardEdit size={30} className="my-auto" />
                   <Tooltip
@@ -102,6 +102,14 @@ function Hero() {
               </a>
             </div>
           </section>
+
+          <div className="border border-white h-auto w-40 rounded-3xl flex justify-center mx-auto ">
+            <p className="my-1">Web Developer</p>
+          </div>
+
+          <div className="flex justify-center mx-auto text-center w-52">
+            <p>Enterprise Design Systems & Search Ads at Google</p>
+          </div>
         </div>
       </div>
     </>
