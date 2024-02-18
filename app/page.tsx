@@ -4,7 +4,7 @@ import { FaPaperPlane, FaBehance, FaLinkedinIn } from "react-icons/fa";
 import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
 import { RxExternalLink } from "react-icons/rx";
-import { TiDocumentText } from "react-icons/ti";
+import { TbMessages } from "react-icons/tb";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
 import { LuClipboardEdit } from "react-icons/lu";
 
@@ -21,7 +21,7 @@ function Hero() {
             <div className="lg:flex">
               <a data-tooltip-id="contact-tooltip" data-tooltip-place="bottom">
                 <div className="example-container __react_component_tooltip __react_component_tooltip.show rounded-3xl w-20 h-20 bg-customAsh hover:border-4 hover:bg-gray-400 flex justify-center">
-                  <FaPaperPlane size={30} className="my-auto" />
+                  <TbMessages size={30} className="my-auto" />
                   <Tooltip
                     id="contact-tooltip"
                     className="example-rounded __react_component_tooltip __react_component_tooltip.show hidden lg:flex"
@@ -52,7 +52,7 @@ function Hero() {
             </div>
           </section>
 
-          <section className="flex gap-4 justify-center mt-4">
+          <section className="flex gap-4 justify-center mt-4 mb-16">
             <div className="lg:flex">
               <a data-tooltip-id="projects-tooltip" data-tooltip-place="bottom">
                 <div className="example-container __react_component_tooltip __react_component_tooltip.show rounded-3xl w-20 h-20 bg-customAsh hover:border-4 hover:bg-gray-400 flex justify-center">
@@ -86,7 +86,7 @@ function Hero() {
               </a>
             </div>
 
-            <div className="lg:flex mb-16">
+            <div className="lg:flex ">
               <a data-tooltip-id="in-tooltip" data-tooltip-place="bottom">
                 <div className="example-container __react_component_tooltip __react_component_tooltip.show rounded-3xl w-20 h-20 bg-customAsh hover:border-4 hover:bg-gray-400 flex justify-center">
                   <FaLinkedinIn size={30} className="my-auto" />
@@ -108,7 +108,7 @@ function Hero() {
           </div>
 
           <div className="flex justify-center mx-auto text-center w-52">
-            <p>Enterprise Design Systems & Search Ads at Google</p>
+            <p>Visual Designer & Intern at Google and Netflix</p>
           </div>
         </div>
       </div>
