@@ -13,7 +13,7 @@ function Hero() {
         </div>
 
         <div>
-          <div className="lg:flex ">
+          {/* <div className="lg:flex ">
             <a
               data-tooltip-id="my-tooltip-rounded"
               data-tooltip-content="Contact Me"
@@ -27,7 +27,7 @@ function Hero() {
                 />
               </div>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
