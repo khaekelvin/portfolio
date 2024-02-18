@@ -45,6 +45,7 @@ function Hero() {
                   <a
                     data-tooltip-id="resume-tooltip"
                     data-tooltip-place="bottom"
+                    href="https://drive.google.com/file/d/1yHsLvt5dp5l7ryyRKbtV5ms9ijwio8JY/view?usp=sharing"
                   >
                     <div className="example-container __react_component_tooltip __react_component_tooltip.show rounded-3xl w-20 h-20 bg-customAsh hover:border-4 hover:bg-gray-400 flex justify-center">
                       <LuClipboardEdit size={30} className="my-auto" />
@@ -129,7 +130,7 @@ function Hero() {
             </div>
 
             <div className="flex justify-center mx-auto text-center w-52">
-              <p>Visual Designer & Intern at Google and Netflix</p>
+              <p>Visual Designer & Web Developer</p>
             </div>
           </div>
         </div>
