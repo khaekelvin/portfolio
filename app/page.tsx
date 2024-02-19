@@ -5,7 +5,6 @@ import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
 import { RxExternalLink } from "react-icons/rx";
 import { TbMessages } from "react-icons/tb";
-import { LiaProjectDiagramSolid } from "react-icons/lia";
 import { LuClipboardEdit } from "react-icons/lu";
 
 function Hero() {
@@ -14,7 +13,7 @@ function Hero() {
       <div className="max-w-7xl mx-auto lg:flex lg:absolute lg:left-[50%] lg:top-[50%] lg:transform lg:translate-x-[-50%] lg:translate-y-[-50%]">
         <div>
           <div className="text-center mb-6 mt-20 font-normal lg:text-[80px] lg:leading-[90px] text-[30px] lg:max-w-[1100px] mx-auto">
-            King is a Web Developer in Accra, Ghana
+            Kelvin is a Web Developer in Accra, Ghana
           </div>
 
           <div className="mt-16">
