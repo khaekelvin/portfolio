@@ -16,7 +16,7 @@ function Hero() {
             Kelvin is a Web Developer in Accra, Ghana
           </div>
 
-          <div className="mt-16">
+          <div className="mt-16 ">
             <section className="lg:flex lg:justify-center gap-6">
               <section className="flex gap-4 justify-center">
                 <div className="lg:flex lg:rotate-[-6deg] lg:mt-[13px]">
