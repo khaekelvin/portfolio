@@ -28,7 +28,7 @@ function Hero() {
                     <div className="example-container __react_component_tooltip __react_component_tooltip.show rounded-3xl w-20 h-20 bg-customAsh hover:border-4 hover:bg-gray-400 flex justify-center">
                       <TbMessages size={30} className="my-auto" />
                       <Tooltip
-                        id="contact-tooltip"
+                        id="contact-tooltip "
                         className="example-rounded __react_component_tooltip __react_component_tooltip.show hidden lg:flex"
                         arrowColor="transparent"
                         data-tooltip-content="Hello world! "
