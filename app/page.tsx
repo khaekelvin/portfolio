@@ -21,7 +21,7 @@ function Hero() {
               <section className="flex gap-4 justify-center">
                 <div className="lg:flex lg:rotate-[-6deg] lg:mt-[13px]">
                   <a
-                    data-tooltip-id="contact-tooltip"
+                    data-tooltip-id="contact-tooltip "
                     data-tooltip-place="bottom"
                     href="mailto:kelvinksd500@gmail.com"
                   >
