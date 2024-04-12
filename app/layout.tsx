@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import Hero from "./page";
 
@@ -11,6 +12,7 @@ function layout() {
     <html lang="en">
       <body className="bg-customBlack text-white">
         <Hero />
+        <Analytics />
       </body>
     </html>
   );
